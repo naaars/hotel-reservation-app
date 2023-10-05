@@ -1,4 +1,4 @@
-# react_hotel_reservation
+# Hotel Reservation App (Vite + React)
 Hotel reservation React app with modern libraries
 
 Specifically, we will use:
