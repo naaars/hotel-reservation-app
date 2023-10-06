@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { useRoute } from "wouter";
+import BookingForm from "./BookingForm";
 
 import {
     Typography,
@@ -49,7 +50,7 @@ function HotelDetails() {
                 </Typography>
             </CardContent>
             <CardActions>
-                {}
+                <BookingForm hotel={hotel} />
             </CardActions>
         </Card> 
     )
